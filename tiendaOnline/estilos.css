@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background: #0078d7;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+button {
+  background: #0078d7;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005a9e;
+}
+
+#carrito {
+  background: #fff;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* ==========================
+   Formulario de Contacto
+========================== */
+
+.contacto{
+    width:80%;
+    max-width:700px;
+    margin:50px auto;
+    padding:30px;
+    background:#ffffff;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+.contacto h2{
+    text-align:center;
+    margin-bottom:10px;
+}
+
+.contacto p{
+    text-align:center;
+    color:#555;
+    margin-bottom:25px;
+}
+
+.campo{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+}
+
+.campo label{
+    font-weight:bold;
+    margin-bottom:6px;
+}
+
+.campo input,
+.campo textarea{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:16px;
+}
+
+.campo input:focus,
+.campo textarea:focus{
+    outline:none;
+    border-color:#0078D7;
+}
+
+.btn-enviar{
+    width:100%;
+    padding:12px;
+    background:#0078D7;
+    color:white;
+    border:none;
+    border-radius:6px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+.btn-enviar:hover{
+    background:#005fa3;
+}

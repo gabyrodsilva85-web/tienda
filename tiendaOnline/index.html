@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda Electrónica</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Tienda de Electrónicos</h1>
+  </header>
+
+  <main>
+    <section id="productos">
+      <h2>Productos disponibles</h2>
+      <div id="lista-productos" class="grid"></div>
+    </section>
+
+    <section id="carrito">
+      <h2>Carrito de compras</h2>
+      <ul id="lista-carrito"></ul>
+      <p id="total">Total: $0</p>
+    </section>
+  </main>
+
+  
+
+  <section class="contacto">
+    <h2>Contáctanos</h2>
+    <p>¿Tienes alguna consulta? Completa el siguiente formulario.</p>
+
+    <form id="formContacto">
+        <div class="campo">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" placeholder="ejemplo@correo.com" required>
+        </div>
+
+        <div class="campo">
+            <label for="direccion">Dirección</label>
+            <input type="text" id="direccion" placeholder="Ingrese su dirección" required>
+        </div>
+
+        <div class="campo">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="8888-8888" required>
+        </div>
+
+        <div class="campo">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="5" placeholder="Escriba su mensaje..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Tienda Electrónica</p>
+  </footer>
+
+  <script src="tienda.js"></script>
+</body>
+</html>
